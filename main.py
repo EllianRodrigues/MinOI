@@ -17,14 +17,12 @@ def main() -> None:
         connector.upload_file(bucket_name, file_path, object_name) # upload
         connector.list_buckets() # lista todos os buckets
         connector.list_files(bucket_name) # lista arquivos no bucket
-        # connector.download_file(bucket_name, file_path, "./meu-arquivo-baixado.pdf") # download
-        # connector.generate_presigned_url(bucket_name, file_path, expiration_hours=1) # url temporaria
-        # connector.get_file_metadata(bucket_name, file_path) # metadados
-        # connector.delete_file(bucket_name, file_path)  # deleta arquivo
+        # connector.download_file(bucket_name, "Documento_grupo_10.pdf", "./meu-arquivo-baixado.pdf") # download
+        # connector.generate_presigned_url(bucket_name, "Documento_grupo_10.pdf", expiration_hours=1) # url temporaria
+        # connector.get_file_metadata(bucket_name, "Documento_grupo_10.pdf") # metadados
+        # connector.delete_file(bucket_name, "Documento_grupo_10.pdf")  # deleta arquivo
         # connector.delete_bucket(bucket_name)  # deleta bucket vazio
-        
-        # connector.list_buckets()
-        # connector.list_files(bucket_name)
+
     except (ConnectionError, FileNotFoundError, ValueError, RuntimeError) as exc:
         print(f"Falha ao operar no MinIO: {exc}")
         return
