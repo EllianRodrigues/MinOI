@@ -1,0 +1,19 @@
+# Ignora a pasta onde o docker salva os arquivos do banco
+dados_minio/
+.minio.sys/
+mini.sys/
+
+# --- Python ---
+__pycache__/
+*.pyc
+
+# --- Ambientes Virtuais ---
+venv/
+env/
+
+# --- Configurações de IDE ---
+.vscode/
+.idea/
+
+# --- Variáveis de Ambiente ---
+.env
