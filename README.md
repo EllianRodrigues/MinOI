@@ -1,7 +1,7 @@
 ## Projeto MinIO
 
--Projeto para a cadeira de Banco De Dados.
--Slide : https://docs.google.com/presentation/d/1K0w-D7NTC3NwqS6ETHfKkeTsRP0FogI_q-sxb-dGAJs/edit?usp=sharing
+- Projeto para a cadeira de Banco De Dados.
+- Slide : https://docs.google.com/presentation/d/1K0w-D7NTC3NwqS6ETHfKkeTsRP0FogI_q-sxb-dGAJs/edit?usp=sharing
 
 ### Requisitos
 - Docker instalado **e rodando**.
