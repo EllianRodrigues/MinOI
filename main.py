@@ -1,4 +1,4 @@
-from minio_client import MinioConnector
+from src import MinioConnector
 
 def main() -> None:
     connector = MinioConnector()
